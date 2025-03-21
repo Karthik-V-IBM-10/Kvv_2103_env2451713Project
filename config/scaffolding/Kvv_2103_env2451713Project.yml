@@ -36,6 +36,18 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.kvv_2103_env2451713.integrations:AlertsCRTandERT
+  packages:
+  - name: Kvv_2103_env2451713Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: pub.alert:emit
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
 - serviceName: project.kvv_2103_env2451713.integrations:SIQAAdapterFlow
   packages:
   - name: Kvv_2103_env2451713Project
